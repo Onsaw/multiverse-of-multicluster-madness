@@ -57,6 +57,14 @@ There are some labels that aren't necessarily meant for organizing workloads as 
 
 ### GCP
 
+- `resource path`: organization/folder>sub-folders/projects/resources
+- `network connectivity`: Cloud VPN and Cloud Interconnect (Direct or Partner)
+- `VPCs `
+- `gcp.loadbalancer.type`
+- `gcp.loadbalancer.id`
+- `gcp.loadbalancer.region`
+- `gcp.loadbalancer.etc`
+
 ### VMWare
 
 ### Bare Metal
