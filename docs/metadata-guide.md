@@ -57,24 +57,24 @@ There are some labels that aren't necessarily meant for organizing workloads as 
 
 ### GCP
 
-- `resource path`: organization/folder>sub-folders/projects/resources
+- `resource-path`: organization/folder>sub-folders/projects/resources
 - `network connectivity`: Cloud VPN and Cloud Interconnect (Direct or Partner)
-- `VPCs `
-- `gcp.loadbalancer.type`
-- `gcp.loadbalancer.id`
-- `gcp.loadbalancer.region`
-- `gcp.loadbalancer.etc`
+- `gcp.loadbalancer.type`: Int= Internal Ext= External
+- `gcp.loadbalancer.traffic`: HTTP/HTTPS, SSL, TCP, UDP, 
+- `gcp.loadbalancer.id`: D= Development P= Production
+- `gcp.loadbalancer.geo`: G= Global R= Regional
+- 
 
 ### VMWare
 
 ### Bare Metal
 
-- `datacenter_building`: 
-- `datacenter_floor`: 
-- `datacenter_aisle`: 
-- `datacenter_rack`: 
-- `server_id`: 
-- `baremetal_vendor`: `hpe` | `dell` | `supermicro` ...
+- `datacenter-building`: 
+- `datacenter-floor`: 
+- `datacenter-aisle`: 
+- `datacenter-rack`: 
+- `server-id`: 
+- `baremetal-vendor`: `hpe` | `dell` | `supermicro` ...
 
 ---
 
