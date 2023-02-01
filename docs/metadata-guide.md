@@ -57,13 +57,19 @@ There are some labels that aren't necessarily meant for organizing workloads as 
 
 ### GCP
 
-- `resource-path`: organization/folder>sub-folders/projects/resources
+- `resource-path`: organization/folder/sub-folders/projects/resources
 - `network connectivity`: Cloud VPN and Cloud Interconnect (Direct or Partner)
-- `gcp.loadbalancer.type`: Int= Internal Ext= External
+- `gcp.loadbalancer.type`: Internal or External
 - `gcp.loadbalancer.traffic`: HTTP/HTTPS, SSL, TCP, UDP, 
-- `gcp.loadbalancer.id`: D= Development P= Production
-- `gcp.loadbalancer.geo`: G= Global R= Regional
-- 
+- `gcp.loadbalancer.id`: Development, Production, or Test
+- `gcp.loadbalancer.geo`: Global or Regional
+- `gcp.region-zone`: us-central1-a
+- `gcp.VPC-type`: Shared or Peering
+- `gcp.SharedVPC.ID`: Host or Service
+- `gcp.service-type`: Apigee, BigQuery, Cloud Run, etc.
+- `gcp.compute-architecture`: x86 or Arm
+- `gcp.compute-workload`: webserver, fileserver, etc.
+- `gcp.IAM.role-type`: basic or predefined 
 
 ### VMWare
 
