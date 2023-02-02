@@ -16,12 +16,14 @@
 - How will you secure inter-cloud communication?
 - What is your plan for security incident response and remediation?
 - How will you manage and secure cloud-based identity and access management?
+- How do you plan to manage Secrets and SSL certificates?
 
 ## Operational Efficiency
 - What are your current operations processes and how will they change in the cloud?
 - What is your plan for automation and orchestration?
 - How will you ensure high availability in the cloud?
 - What is your plan for performance monitoring and tuning in the cloud?
+- What is your plan for cloud resource management and allocation?
 
 ## Automation
 - How will you manage CI/CD pipeline in the cloud?
@@ -52,7 +54,6 @@
 - How will you manage data backup and restore in the cloud?
 
 ## Governance
-- What is your plan for cloud resource management and allocation?
 - How will you manage multi-cloud operations and cost optimization?
 - What is your plan for cloud service level agreement (SLA) management?
 - How will you manage cloud compliance and regulatory requirements?
