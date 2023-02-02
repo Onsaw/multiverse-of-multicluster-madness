@@ -19,7 +19,6 @@
 
 ## Operational Efficiency
 - What are your current operations processes and how will they change in the cloud?
-- How will you manage scaling and resource allocation in the cloud?
 - What is your plan for automation and orchestration?
 - How will you ensure high availability in the cloud?
 - What is your plan for performance monitoring and tuning in the cloud?
