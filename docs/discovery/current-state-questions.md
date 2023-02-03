@@ -1,4 +1,4 @@
-# Current State Discovery
+# **Current State Questions**
 
 ### Infrastructure:
 
@@ -11,4 +11,12 @@
 7. Do you 
 
 
+### Security
+
+1. Are you currently using any security context constraints and network policies?
+2. Are you currently using any automated security controls and compliance checks?
+3. Are you currently using any container security solution for vulnerability scanning and runtime protection?
+4. What method(s) of access control (RBAC, MAC, ABAC, ACL) do you currently implement?
+5. How are you currently managing your SSL certificates?
+6. Are there additional security concerns around access currently implemented?
 
