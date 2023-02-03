@@ -8,6 +8,8 @@
 4. What is your current underlying infrastructure for containerized workloads?
 5. Are you currently using any monitoring and visualization tools for containers and clusters?
 6. Is any portion of your current physical infrastructure is being supported or hosted by a 3rd party
+7. Have you performed a recent assesement of your network infrastructure?
+
 
 ### Security
 
@@ -18,6 +20,7 @@
 5. How are you currently managing your SSL certificates?
 6. Are there additional security concerns around access currently implemented?
 7. Given your current security posture, how does your organization align with industry best practices?
+8. Do you also require 2-step verification for Admin accounts?
 
 ### SRE considerations
 
@@ -27,7 +30,8 @@
 4. Are you currently using any tool to manage and control resources in multiple clouds?
 5. What means/tool(s) are you currently using any automation platform for the deployment and management of containerized environments?
 6. Do you have a comprehensive list of all applications and their dependencies
-7. What mechanisms do you have in place to account for potential traffic spikes during migrations and updates?
+7. What mechanisms do you have in place to account for spikes in demand during migrations and updates?
+8. What incident management system do you currently use?
 
 ### Applications
 
