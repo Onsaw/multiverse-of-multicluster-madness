@@ -29,4 +29,31 @@
 6. Do you have a comprehensive list of all applications and their dependencies
 7. What mechanisms do you have in place to account for potential traffic spikes during migrations and updates?
 
+### Applications
+
+1. What percentage of your internal and external applications are containerized?
+2. Can you provide information for Health Checks?
+3. Can you provide information on historical resource utilization?
+4. Can you provide information for historical ingress/egress?
+5. Are these using any form of sidecar container?
+6. Where are your container images stored? Is this consistent throughout your organization?
+7. What type of base image are currently utilizing? Custom/Public
+8. Are the applications exposed externally, internally, or both?
+9. What load balancers, if any are you currently using?
+10. What proxies such as NGINX/Envoy/etc are you using?
+11. Are you using a manual method or a configuration management tool for deployment?
+12. How many Secrets/Configmaps are there?
+14. Do these applications use any Volume Mounts to access static files?
+13. Are any applications CPU or Memory intensive?
+15. How much storage is currently provisioned per cluster?
+16. What is your preferred container orchestration? Are there many in use in your organization?
+17. Are you currently using any kind of Service Mesh?
+18. Are you using any cluster-based data services to hold static data?
+19. Of the containerized applications, how many are Stateful Sets, Replicasets, DaemonSets, Jobs, or CronJobs?
+20. What are the sizes of your Node Pools (prod/non-prod)?
+21. What is the release (versions) of Kubernetes you are currently running?
+22. What container runtime are you using (containerd, CRI-O, etc.)?
+23. Does any application require a GPU/TPU?
+24. Do you want to utilize usage metering to monitor cluster namespace/label/attribute usage?
+
 
