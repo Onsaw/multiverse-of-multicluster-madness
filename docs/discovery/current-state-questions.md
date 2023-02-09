@@ -9,6 +9,7 @@
 5. Are you currently using any monitoring and visualization tools for containers and clusters?
 6. Is any portion of your current physical infrastructure is being supported or hosted by a 3rd party
 7. Have you performed a recent assesement of your network infrastructure?
+8. What percentage of your physical infrastructure is currently past it's useful life?
 
 
 ### Security
